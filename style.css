@@ -1,0 +1,75 @@
+:root {
+  /* ##Colors */
+
+  /* ### Primary */
+
+  --Gradient: linear-grandient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+
+  /* ### Neutral */
+
+  --Pale-Blue: hsl(243, 100%, 93%);
+  --Grayish-Blue: hsl(229, 7%, 55%);
+  --Dark-Blue: hsl(228, 56%, 26%);
+  --Very-Dark-Blue: hsl(229, 57%, 11%);
+
+  --font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 14px;
+  background-image: url(./images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var( --Pale-Blue);
+  font-weight: 400;
+}
+
+.container {
+  margin: 124px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+
+  .container__storage {
+    height: 202px;
+    background-color: var(--Dark-Blue);
+    border-radius: 14px 96px 14px 14px;
+    padding: 40px;
+
+    .storage__logo {
+      width: fit-content;
+      height: 42px;
+      object-fit: contain;
+    }
+
+    .storage__icons {
+      display: flex;
+      gap: 16px;
+
+      .icons__wrapper {
+        background-color: var(--Very-Dark-Blue);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        border-radius: 8px;
+        margin-top: 30px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .container__bar {
+    padding: 40px;
+    background-color: var(--Dark-Blue);    
+    border-radius: 14px;
+  }
+}
