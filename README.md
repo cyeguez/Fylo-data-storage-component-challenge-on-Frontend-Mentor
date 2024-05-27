@@ -12,7 +12,6 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
   - [Built with](#built-with)
 - [Author](#author)
 
-
 ## Overview
 
 It is a challenge taken on the FrontendMentor page, which consists of building a kind of file upload system where it must show when the uploaded file weighs and the remaining available space.
@@ -28,12 +27,10 @@ Users should be able to:
 ![Screenchoot mobile](./images/screenshot/mobile.png)
 ![Screenshot de desktop](./images/screenshot/desktop.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/cyeguez/Fylo-data-storage-component-challenge-on-Frontend-Mentor)
+- Live Site URL: [Git Pages](https://cyeguez.github.io/Fylo-data-storage-component-challenge-on-Frontend-Mentor/)
 
 ## My process
 
@@ -48,11 +45,6 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 [![Tecnology](https://skillicons.dev/icons?i=js,html,css,figma)](https://skillicons.dev)
 
-
-
 ## Author
 
 - Frontend Mentor - [@Cesar Yeguez](https://www.frontendmentor.io/profile/cyeguez)
-
-
-
